@@ -1,0 +1,57 @@
+@import "_variables";
+@import "_utils";
+
+
+.head-square {
+    position: absolute;
+    width: 217px;
+    height: 217px;
+    @include background;
+    font: 65px globerregular;
+    text-align: center;
+    line-height: 217px;
+}
+.head-square--collaborate {
+    left: 24px;
+    top: 160px;
+    color: #F6BB42;
+    background-image: url(../img/head-square.png);
+}
+.collaborate {
+    width: 100%;
+}
+.collaborate .container {
+    padding-left: 180px;
+}
+.collaborate__header,
+.header--left {
+    padding-top: 191px;
+    font: 50px globerregular;
+    color: #32315E;
+    letter-spacing: 3.25px;
+    line-height: 70px;
+}
+.collaborate__subheader {
+    margin-top: 6px;
+    width: 949px;
+    margin-left: 4px;
+    text-align: left;
+    font: 24px globerlight;
+    color: #515E80;
+    line-height: 36px;
+    letter-spacing: 0px;
+}
+.collaborate__list {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-top: 62px;
+}
+.collaborate__list-item {
+    font: 19px globerregular;
+    color: #32315E;
+    margin-top: 36px;
+    list-style-image: url(../img/list-dot.png);
+    width: 383px;
+    padding-left: 8px;
+}

@@ -1,0 +1,48 @@
+@import "_variables";
+@import "_utils";
+
+.problem {
+    width: 100%; 
+    padding-bottom: 147px;
+}
+.problem__header {
+    text-align: center;
+    font: 22px globerregular;
+    text-transform: uppercase;
+    color: #32315E;
+    line-height: 30px;
+    letter-spacing: 1.43px;
+    padding-top: 72px;
+}
+.problem__subheader {
+    text-align: center;
+    font: 24px globerlight;
+    color: #515E80;
+    line-height: 36px;
+    margin-top: 24px; 
+}
+.problem__item {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.post__header {
+    font: 19px globerregular;
+    line-height: 28px;
+    color: #32315E;
+    margin-top: 59px;
+    &:nth-child(2) {
+        margin-top: 55px;
+    }
+    &:last-child {
+        margin-top: 70px;
+    }
+}
+.post__text {
+    font: 17px globerlight;
+    color: #515E80;
+    line-height: 26px;
+    width: 514px;
+    margin-top: 12px;
+    letter-spacing: 0px;
+}

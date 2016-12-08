@@ -1,0 +1,65 @@
+@import "_variables";
+@import "_utils";
+
+.head-square {
+    position: absolute;
+    width: 217px;
+    height: 217px;
+    @include background;
+    font: 65px globerregular;
+    text-align: center;
+    line-height: 217px;
+}
+.head-square--plan {
+    right: 45px;
+    top: 274px;
+    color: #FF3830;
+    background-image: url(../img/head-square.png);
+}
+.plan {
+    width: 100%;
+}
+.plan__header,
+.header--right {
+    padding-top: 300px;
+    font: 50px globerregular;
+    color: #32315E;
+    letter-spacing: 3.25px;
+    line-height: 70px;
+    padding-right: 215px;
+    text-align: right;
+}
+.plan__subheader,
+.subheader__right {
+    margin-top: 6px;
+    margin-left: 4px;
+    text-align: left;
+    font: 24px globerlight;
+    color: #515E80;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: right;
+    padding-right: 206px;
+}
+.plan__list {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-top: 69px;
+    width: 439px;
+}
+.plan__list--left {
+    margin-left: 170px;
+    margin-right: 75px;
+}
+.plan__list-item {
+    font: 19px globerregular;
+    color: #32315E;
+    margin-top: 36px;
+    list-style-image: url(../img/list-dot.png);
+    width: 438px;
+    padding-left: 8px;
+    &:nth-child(5) {
+        width: 383px;
+    }
+}
